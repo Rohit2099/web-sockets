@@ -6,9 +6,7 @@ Toggle the auto-attach flag in VS code command pallette and then run:
 node --inspect server.js
 ```
 
-or
-<br>
-Run the following command
+or run the following command
 
 ```
 node server.js
