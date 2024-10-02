@@ -1,4 +1,4 @@
-let ws = new WebSocket("ws://127.0.0.1:4000");
+let ws = new WebSocket("ws://127.0.0.1:4000/first");
 ws.addEventListener("error", function (err) {
     console.log(err);
 });
