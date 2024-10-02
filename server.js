@@ -34,10 +34,6 @@ wss.on("connection", (ws, req) => {
     ws.send("welcome");
 });
 
-wss.on("error", () => {
-    let a = "efv";
-});
-
 server.listen(4000, () => {
     console.log("Listening now...");
 });
